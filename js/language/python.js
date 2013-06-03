@@ -4,7 +4,7 @@
  * @author Craig Campbell
  * @version 1.0.9
  */
-Rainbow.extend('python', [
+module.exports = ['python', [
     /**
      * don't highlight self as a keyword
      */
@@ -81,4 +81,4 @@ Rainbow.extend('python', [
         'name': 'comment.docstring',
         'pattern': /('{3}|"{3})[\s\S]*?\1/gm
     }
-]);
+]];

@@ -7,7 +7,7 @@
  * @version 1.0.5
  */
 
-Rainbow.extend('ruby', [
+module.exports = ['ruby', [
     /**
      * Strings
      *   1. No support for multi-line strings
@@ -204,4 +204,4 @@ Rainbow.extend('ruby', [
         },
         'pattern': /(def)\s(.*?)(?=(\s|\())/g
     }
-], true);
+], true];

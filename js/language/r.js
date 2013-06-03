@@ -4,7 +4,7 @@
  * @author Simon Potter
  * @version 1.0
  */
-Rainbow.extend('r', [
+module.exports = ['r', [
     /**
      * Note that a valid variable name is of the form:
      * [.a-zA-Z][0-9a-zA-Z._]*
@@ -86,4 +86,4 @@ Rainbow.extend('r', [
         'name': 'support.function',
         'pattern': /(^|[^0-9a-zA-Z\._])(array|character|complex|data\.frame|double|integer|list|logical|matrix|numeric|vector)(?=\s*\()/g
     }
-]);
+]];

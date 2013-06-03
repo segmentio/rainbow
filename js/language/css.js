@@ -4,7 +4,7 @@
  * @author Craig Campbell
  * @version 1.0.8
  */
-Rainbow.extend('css', [
+module.exports = ['css', [
     {
         'name': 'comment',
         'pattern': /\/\*[\s\S]*?\*\//gm
@@ -86,4 +86,4 @@ Rainbow.extend('css', [
         },
         'pattern': /(&lt;\/?)(style.*?)(&gt;)/g
     }
-], true);
+], true];

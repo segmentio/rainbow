@@ -5,7 +5,7 @@
  * @author Craig Campbell
  * @version 1.0.3
  */
-Rainbow.extend('shell', [
+module.exports = ['shell', [
     /**
      * This handles the case where subshells contain quotes.
      * For example: `"$(resolve_link "$name" || true)"`.
@@ -53,4 +53,4 @@ Rainbow.extend('shell', [
         },
         'pattern': /\b(break|case|continue|do|done|elif|else|esac|eval|export|fi|for|function|if|in|local|return|set|then|unset|until|while)(?=\(|\b)/g
     }
-], true);
+], true];

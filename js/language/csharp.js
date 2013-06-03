@@ -4,7 +4,7 @@
 * @author Dan Stewart
 * @version 1.0.1
 */
-Rainbow.extend('csharp', [
+module.exports = ['csharp', [
 	{
         // @see http://msdn.microsoft.com/en-us/library/23954zh5.aspx
 		'name': 'constant',
@@ -84,4 +84,4 @@ Rainbow.extend('csharp', [
 		'name': 'preprocessor',
 		'pattern': /(\#if|\#else|\#elif|\#endif|\#define|\#undef|\#warning|\#error|\#line|\#region|\#endregion|\#pragma)[\s\S]*?$/gm
 	}
-], true);
+], true];

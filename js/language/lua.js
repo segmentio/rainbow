@@ -4,7 +4,7 @@
  * @author Javier Aguirre
  * @version 1.0.1
  */
-Rainbow.extend('lua', [
+module.exports = ['lua', [
     {
         'matches': {
             1: {
@@ -56,4 +56,4 @@ Rainbow.extend('lua', [
         },
         'pattern': /\b(print|require|module|\w+\.\w+)(?=\()/g
     }
-], true);
+], true];

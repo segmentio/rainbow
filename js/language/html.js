@@ -4,7 +4,7 @@
  * @author Craig Campbell
  * @version 1.0.7
  */
-Rainbow.extend('html', [
+module.exports = ['html', [
     {
         'name': 'source.php.embedded',
         'matches': {
@@ -80,4 +80,4 @@ Rainbow.extend('html', [
         },
         'pattern': /\s(\w+)(?=\s|&gt;)(?![\s\S]*&lt;)/g
     }
-], true);
+], true];

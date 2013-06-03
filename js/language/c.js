@@ -5,7 +5,7 @@
  * @author Craig Campbell
  * @version 1.0.7
  */
-Rainbow.extend('c', [
+module.exports = ['c', [
     {
         'name': 'meta.preprocessor',
         'matches': {
@@ -66,4 +66,4 @@ Rainbow.extend('c', [
         'name': 'support.type',
         'pattern': /\b(struct|union|enum)\b/g
     }
-]);
+]];

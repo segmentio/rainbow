@@ -4,7 +4,7 @@
 * @author Matthew Brennan Jones
 * @version 1.0.1
 */
-Rainbow.extend('d', [
+module.exports = ['d', [
     {
         'name': 'constant',
         'pattern': /\b(false|null|true)\b/gm
@@ -77,5 +77,5 @@ Rainbow.extend('d', [
         //  / /= &= && & |= || | -= -- - += ++ + <= << < <<= <>= <> > >>>= >>= >= >> >>> != !<>= !<> !<= !< !>= !> ! [ ] $ == = *= * %= % ^^= ^= ^^ ^ ~= ~ @ => :
         'pattern': /(\/|\/=|&amp;=|&amp;&amp;|&amp;|\|=|\|\|\||\-=|\-\-|\-|\+=|\+\+|\+|&lt;=|&lt;&lt;|&lt;|&lt;&lt;=|&lt;&gt;=|&lt;&gt;|&gt;|&gt;&gt;&gt;=|&gt;&gt;=|&gt;=|&gt;&gt;|&gt;&gt;&gt;|!=|!&lt;&gt;=|!&lt;&gt;|!&lt;=|!&lt;|!&gt;=|!&gt;|!|[|]|\$|==|=|\*=|\*|%=|%|\^\^=|\^=|\^\^|\^|~=|~|@|=&gt;|\:)/gm
     }
-], true);
+], true];
 

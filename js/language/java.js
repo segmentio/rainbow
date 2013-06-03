@@ -4,7 +4,7 @@
 * @author Leo Accend
 * @version 1.0.0
 */
-Rainbow.extend( "java", [
+module.exports = [ "java", [
   {
     name: "constant",
     pattern: /\b(false|null|true|[A-Z_]+)\b/g
@@ -56,4 +56,4 @@ Rainbow.extend( "java", [
     name: "operator",
     pattern: /(\+{1,2}|-{1,2}|~|!|\*|\/|%|(?:&lt;){1,2}|(?:&gt;){1,3}|instanceof|(?:&amp;){1,2}|\^|\|{1,2}|\?|:|(?:=|!|\+|-|\*|\/|%|\^|\||(?:&lt;){1,2}|(?:&gt;){1,3})?=)/g
   }
-], true );
+], true ];

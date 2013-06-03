@@ -4,7 +4,7 @@
  * @author Craig Campbell
  * @version 1.0
  */
-Rainbow.extend('coffeescript', [
+module.exports = ['coffeescript', [
     {
         'name': 'comment.block',
         'pattern': /(\#{3})[\s\S]*\1/gm
@@ -122,4 +122,4 @@ Rainbow.extend('coffeescript', [
         },
         'pattern': /\b(new)\s(.*?)(?=\s)/g
     }
-]);
+]];

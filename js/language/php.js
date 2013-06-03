@@ -4,7 +4,7 @@
  * @author Craig Campbell
  * @version 1.0.8
  */
-Rainbow.extend('php', [
+module.exports = ['php', [
     {
         'name': 'support',
         'pattern': /\becho\b/g
@@ -120,4 +120,4 @@ Rainbow.extend('php', [
         },
         'pattern': /(\(|,\s?)([\w\\]*?)(?=\s\$)/g
     }
-]);
+]];

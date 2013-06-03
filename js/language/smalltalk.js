@@ -4,7 +4,7 @@
  * @author Frank Shearar <frank@angband.za.org>
  * @version 1.0
  */
-Rainbow.extend('smalltalk', [
+module.exports = ['smalltalk', [
     {
         'name': 'keyword.pseudovariable',
         'pattern': /self|thisContext/g
@@ -49,4 +49,4 @@ Rainbow.extend('smalltalk', [
         'name': 'operator.delimiter',
         'pattern': /;[\(\)\[\]\{\}]|#\[|#\(^\./g
     }
-], true);
+], true];

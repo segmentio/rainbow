@@ -4,7 +4,7 @@
  * @author Craig Campbell
  * @version 1.0.8
  */
-Rainbow.extend('javascript', [
+module.exports = ['javascript', [
 
     /**
      * matches $. or $(
@@ -107,4 +107,4 @@ Rainbow.extend('javascript', [
         'name': 'entity.function',
         'pattern': /(\w+)(?=:\s{0,}function)/g
     }
-]);
+]];
